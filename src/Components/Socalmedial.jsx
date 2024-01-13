@@ -2,10 +2,13 @@ import React from "react";
 import "./style.css";
 
 function Socalmedial() {
-  // Function to generate WhatsApp links
+ 
   const getWhatsAppLinks = () => {
     const phoneNumber = "+918926152152";
+     // Function to generate WhatsApp links
     const regularWhatsAppLink = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=Zoomwheels+Team%2C+I+would+like+to+know+more&type=phone_number&app_absent=0`;
+    // Function to generate business WhatsApp links
+   
     const businessWhatsAppLink = `https://wa.me/${phoneNumber}?text=Hello%20from%20Zoomwheels&source=business`;
 
     return {
@@ -46,7 +49,7 @@ function Socalmedial() {
           </a>{" "}
         </div>
         <div>
-          {/* Use regular WhatsApp link by default */}
+       
           <a
             href={regularWhatsAppLink}
             className='fixed-twitter wtsp1'
