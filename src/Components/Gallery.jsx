@@ -11,7 +11,7 @@ const Gallery = () => {
 			<section class='about_top'>
 				<div class='container'>
 					<div class='row'>
-						<h1>Happy customers</h1>
+						<h1>Happy Customers</h1>
 					</div>
 				</div>
 			</section>
