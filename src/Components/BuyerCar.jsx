@@ -1660,7 +1660,17 @@ const BuyerCar = () => {
 				<div class='container'>
 
 					<div class='row'>
-						<h1>Buy Car</h1>
+
+					<div class='buy_car_list'>						
+<ul>
+	<li><span class="fa fa-circle"></span> Certified Cars </li>
+	<li><span class="fa fa-circle"></span> Non Accidental</li>
+	<li><span class="fa fa-circle"></span> With Warranty </li>
+	<li><span class="fa fa-circle"></span> No Commission</li>
+</ul>
+
+</div>
+
 					</div>
 				</div>
 			</section>{" "}
@@ -2365,6 +2375,7 @@ const BuyerCar = () => {
 														class='col-md-4 col-sm-6 col-xs-12 by_pdg'
 														key={item.uniqueSerial}>
 														<div class='crane_container'>
+														<p class="newtext2"><i class="fa fa-check-circle ver_icn"></i> Certified</p>
 															<div class='carbox '>
 																{item?.bookingFlag === "Y" ? (
 																	<>
@@ -2487,6 +2498,7 @@ const BuyerCar = () => {
 																class='col-md-4 col-sm-6 col-xs-12 by_pdg'
 																key={item.uniqueSerial}>
 																<div class='crane_container by_pdg'>
+																<p class="newtext2"><i class="fa fa-check-circle ver_icn"></i> Certified</p>
 																	<div class='carbox '>
 																		{item?.bookingFlag === "Y" ? (
 																			<>
