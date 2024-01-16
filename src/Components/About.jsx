@@ -85,9 +85,14 @@ function SwipeableTextMobileStepper() {
 				</div>
 			</section>
 
+			
+
 			<section class='about_mn'>
 				<div className='container'>
 					<div className='row'>
+
+					
+
 						<div className='col-md-4 col-sm-6 col-xs-12'>
 							<div className='about_sv'>
 								<img class='' src='images/about-logo.svg'></img>
@@ -100,6 +105,72 @@ function SwipeableTextMobileStepper() {
 							With over a decade of experience in the used car industry, our company has established itself as one of the leading dealers in the Delhi NCR region. We have built a strong reputation for providing high-quality, reliable used cars to our customers, along with exceptional customer service and support. Our extensive experience in the industry has enabled us to develop a deep understanding of the market, allowing us to offer a wide range of vehicles at competitive prices. We take pride in our ability to assist customers in finding the ideal used car to meet their needs, and our commitment to transparency and integrity has made us a trusted name in the industry.
 							</p>
 						</div>
+
+						<section class='why_zoom_mn'>
+							
+							<h3>Why Zoomwheels</h3>
+
+
+
+
+<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> Certified Cars </h3>
+                               
+                            </div>
+							
+                        </div>
+
+						<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> Non-Accidental </h3>
+                                
+                            </div>
+							
+                        </div>
+
+						<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> Under Warranty Cars</h3>
+                               
+                            </div>
+							
+                        </div>
+
+						<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> Non Meter Tampered</h3>
+                              
+                            </div>
+
+							
+							
+                        </div>
+
+
+						<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> No Hidden Charges</h3>
+                               
+                            </div>
+							
+                        </div>
+
+						<div class="design1">
+                            <div  class="tab-pane">
+                                <h3><span class="fa fa-circle"></span> Free RC Transfer</h3>
+                               
+                            </div>
+							
+                        </div>
+
+
+						<p>Points like "No commission," "Non-accidental," "With Warranty," "Certified cars," and "Non-meter tampering" 
+									highlight key advantages of buying from reputable used car dealers. These factors contribute to a more transparent and 
+									reliable car purchasing experience,
+									 addressing concerns related to costs, vehicle condition, and overall peace of mind for the buyer. </p>
+
+						</section>
 
 						<div class='team_mn'>
 							<h2>The Wonder Team</h2>
@@ -163,6 +234,10 @@ function SwipeableTextMobileStepper() {
 					</div>
 				</div>
 			</section>
+
+
+			
+
 
 			<section class='jk-slider slid2'>
 				<div id='carousel-example' class='carousel slide' data-ride='carousel'>
