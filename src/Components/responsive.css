@@ -180,10 +180,99 @@
 		margin-top: 0px !important;
 		text-align: right;
 	}
+
+
+.sell_hid{ display: inherit !important;}
+.example-1 {
+    text-align: right;
+    display: inline-block !important;
+}
+
+.sel_btn2_mn {
+    width: 100%;
+    display: inline-block !important;
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+.example-1 a{margin: 0 5px 0 15px !important;}
+
+.buy_car_list ul li {
+    color: #fff;
+    font-size: 16px !important;
+    display: inline-block;
+    width: 24%;
+    font-weight: bold;
+}
+
+.viw_hd{ display: none !important;}
+
+.sel_btn2_mn {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.drup_sid1 li {
+    display: inline-block;
+    margin: 0 15px;
+    width: 26% !important;
+}
+
 }
 
 @media screen and (max-width: 480px) {
 
+
+	.design1 {
+		padding: 4px 20px;
+		background: #1976d2;
+		font-size: 14px;
+		color: #fff;
+		line-height: 22px;
+		letter-spacing: 1px;
+		border: 1px solid #b6b5b5;
+		transform: skewX(338deg);
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		/* border-radius: 15px; */
+		width: 86% !important;
+		margin-top: 10px;
+		display: inline-block;
+		margin: 9px 15px 1px 7px !important;
+		float: left;
+	}
+
+
+.why_zoom_mn h3 {
+    text-align: center !important;
+    font-size: 27px !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.design1 h3 {
+    text-align: left;
+    font-size: 14px !important;
+    margin-bottom: 30px;
+    margin: 4px 0 !important;
+    transform: skew(3deg);
+    line-height: 16px;
+}
+
+.why_zoom_mn {
+    width: 100%;
+    float: left;
+    padding: 10px 0 !important;
+    text-align: center;
+}
+
+	.buy_car_list ul li {
+		color: #fff;
+		font-size: 15px !important;
+		display: inline-block;
+		width: 50% !important;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
 
 	.spn_clr {
 		font-weight: bolder;

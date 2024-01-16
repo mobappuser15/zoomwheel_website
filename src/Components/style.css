@@ -1902,7 +1902,7 @@ svg text {
 .team_mn {
 	width: 100%;
 	float: left;
-	padding: 70px 0;
+	padding: 10px 0 70px 0;
 }
 
 .team_mn h2 {
@@ -4477,3 +4477,94 @@ button.close {
 
 
 .fom_spnn1 input::placeholder{color: #000 !important;}
+
+.sel_btn2_mn{ width: 100%;}
+
+.sell_hid{ display: none;}
+
+.buy_car_list{ text-align: center;}
+.buy_car_list ul{}
+.buy_car_list ul li{ color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    width: 24%;
+    font-weight: bold;}
+
+.buy_car_list ul li span{font-size: 10px; vertical-align: middle; color: #fc0;}
+
+.why_zoom_mn{ width: 100%; float: left; padding: 60px 0; text-align: center;}
+
+.why_zoom_mn h3{ text-align: left; font-size: 40px; text-transform: uppercase;margin-bottom: 20px;}
+
+.why_zoom_mn ul{padding: 0; margin: 0; margin-top: 50px;}
+.why_zoom_mn li{display: inline-block;
+    font-size: 18px;
+    width: 17%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 0 12px;
+    min-height: 84px;
+    vertical-align: middle;
+    font-weight: 500;}
+
+	.why_zoom_mn li span {
+		font-size: 10px;
+		vertical-align: middle;
+		color: #fc0;
+	}
+
+
+.newtext2 {
+    position: absolute;
+    right: 15px;
+    background: #1976d2;
+    padding: 6px 10px 6px 10px;
+    border-radius: 25px 0px 0px 25px;
+    margin-top: 5px;
+    z-index: 999;
+    font-size: 14px;
+	color: #fff;
+}
+
+
+
+.design1 {
+    padding: 4px 20px;
+    background: #1976d2;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    letter-spacing: 1px;
+    border: 1px solid #b6b5b5;
+    transform: skewX(338deg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border-radius: 15px; */
+    width: 31%;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 9px 15px 1px 0;
+    float: left;
+}
+
+.design1 h3{ text-align: left; font-size: 18px; margin-bottom: 30px; margin: 8px; transform: skew(21deg);}
+
+.design1 h3 span {
+    font-size: 10px;
+    vertical-align: middle;
+    color: #fc0;
+}
+
+.design1 p{font-size: 17px;
+    line-height: 28px;
+    text-align: left;
+    transform: skew(3deg);}
+
+
+	.why_zoom_mn p {
+		margin-top: 25px;
+		width: 100%;
+		float: left;
+	}
+
+.by_btn_hd{ display: none;}

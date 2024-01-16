@@ -500,10 +500,26 @@ const Dashboard = () => {
 
 				<div className='box_mn1'>
 					<h1>DISCOVER THE PERFECT CAR</h1>
+
+					<div className='sel_btn2_mn'>
+
+					<div class='view_btn2 example-1 by_btn_hd'>
+					<Link to='/buyercars'> Buy Car <i class="fa fa-fw" ></i></Link>
+									</div>
+
+					<div class='view_btn2 example-1 sell_hid'>
+					<Link to='/sellcars'> Sell car <i class="fa fa-fw" ></i></Link>
+									</div>
+
+									
 					
-					<div class='view_btn2 example-1'>
+					<div class='view_btn2 example-1 viw_hd'>
 					<Link to='/buyercars'> View All <i class="fa fa-fw" ></i></Link>
 									</div>
+
+								
+
+</div>
 
 					{currentData.length === 0 ? (
 						<div
@@ -540,6 +556,7 @@ const Dashboard = () => {
 										class='col-md-4 col-sm-6 col-xs-12'
 										key={item.uniqueSerial}>
 										<div class='crane_container'>
+										<p class="newtext2"><i class="fa fa-check-circle ver_icn"></i> Certified</p>
 											<div class='carbox '>
 												{item?.bookingFlag === "Y" ? (
 													<>

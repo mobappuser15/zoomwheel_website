@@ -83,7 +83,7 @@ function ResponsiveDrawer(props) {
 						},
 
 						{
-							text: "Gallery",
+							text: "Happy customers",
 							icon: (
 								<img
 									class='menu_icon arrow'
