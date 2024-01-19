@@ -811,6 +811,30 @@ const DetailsCars = () => {
 						</ul>
 </div>
 </div>
+
+
+<div className="container">
+	<div className="detl_mn">
+
+	<h3>Features</h3>
+
+	<ul>
+<li>
+<img class='dt_icn' src='images/car_image/i1.png'></img>
+<h4 class='b-detail__main-aside-desc-title'>Make</h4>
+ 
+								<p class='b-detail__main-aside-desc-value'>
+									{stockdata.vehBrandCode}
+</p>
+</li>
+</ul>
+
+	</div>
+
+
+
+	
+</div>
 </div>
 <Footer />
 </div>

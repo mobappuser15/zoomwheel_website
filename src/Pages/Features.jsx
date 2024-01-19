@@ -266,7 +266,7 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 					/>
 
 
-<input
+<input style={{margin:"20px"}}
 						type='text'
 						name='remarks'
 						className='admintextbox1'

@@ -589,6 +589,7 @@ tbody tr:nth-child(even) {
 @media screen and (max-width: 896px) {
 
 	.admintextbox1 {
+		margin: 15px !important;
 		margin-bottom: 12px;
 		margin-top: 0;
 		width: 80% !important;
@@ -645,11 +646,7 @@ tbody tr:nth-child(even) {
 		margin-right: 0;
 		width: 100%;
 	}
-	.admintextbox1 {
-		width: 80%;
-		margin-top: 0;
-		margin-bottom: 12px;
-	}
+	
 	.adminbtn1 {
 		border: none !important;
 		border-bottom: #7fffd4;
