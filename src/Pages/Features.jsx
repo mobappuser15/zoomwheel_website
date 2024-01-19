@@ -109,11 +109,12 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 				InsuType: "",
 				InsuDate: PropsData.insuDate,
 				ChassisNo: "",
-
+				Comment:remarks,
 				CurrentKMS: vehOdometer,
 				Features: selectedCheckboxes,
 				uniqueSerial: uniquekey,
 			};
+			console.log(featuresData,"featuresData")
 
 			const featuresResponse = await fetch(
 				"https://mobile.Orbitsys.com/OrbitsysSmbApiDemo/UsedCar/SaveFeatureData",
@@ -130,6 +131,7 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 				}
 			);
 			const featuresDataResult = await featuresResponse.json();
+			console.log(featuresDataResult,"featuresDataResult")
 			toast.success(featuresDataResult.result);
 			navigate("/bookingstocktable");
 			const priceData = {
@@ -178,7 +180,9 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 			);
 			const priceDataResult = await priceResponse.json();
 			navigate("/bookingstocktable");
-		} catch (error) {}
+		} catch (error) {
+			toast.error(error);
+		}
 	};
 
 	return (
@@ -197,7 +201,7 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 			</div>
 			<div
 				id='Paris'
-				class='tabcontent  tableFixHead '
+				class='tabcontent   '
 				style={{ marginTop: "20px", marginLeft: "50px" }}>
 				{fetaures.map((itemdata) => (
 					<div

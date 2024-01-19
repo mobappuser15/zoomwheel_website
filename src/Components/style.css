@@ -4568,3 +4568,38 @@ button.close {
 	}
 
 .by_btn_hd{ display: none;}
+
+
+.lis_ver {
+    width: 48%;
+	vertical-align: top;
+    padding: 5px 40px;
+    /* border: solid 1px #ddd9d9; */
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.lis_ver h3{
+	margin-bottom: 20px;
+    padding: 0 15px;
+    border-left: 4px solid #1976d2;
+    border-right: 4px solid #1976d2;
+    display: inline-block;
+}
+.lis_ver ul{}
+.lis_ver ul li{    font-size: 14px;}
+.lis_ver ul li .fa{ font-size: 14px;}
+
+
+
+
+.detl_mn4 {
+    line-height: 40px;
+    background: #fff;
+    padding: 16px 15px;
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}

@@ -707,7 +707,7 @@ const DetailsCars = () => {
 </i>
 </a>
  
-						<h3>DESCRIPTION</h3>
+						<h3>DESCRIPTION </h3>
  
 						<ul>
 <li>
@@ -814,20 +814,54 @@ const DetailsCars = () => {
 
 
 <div className="container">
-	<div className="detl_mn">
+	<div className="detl_mn4">
+	
 
-	<h3>Features</h3>
 
+
+
+<div className="lis_ver">
+<h3>Features</h3>
+<ul>
+{stockdata.modelImages &&
+																stockdata.vehFeatures.map((item, i) => (
+																	
+																	<li>
+
+<i class="fa fa-fw" ></i> 
+{item.description}
+								
+</li>
+																))}
+	
+
+
+
+
+
+
+</ul>
+</div>					
+
+
+
+
+	
+	<div className="lis_ver">
+	<h3>Remarks</h3>
 	<ul>
 <li>
-<img class='dt_icn' src='images/car_image/i1.png'></img>
-<h4 class='b-detail__main-aside-desc-title'>Make</h4>
- 
-								<p class='b-detail__main-aside-desc-value'>
-									{stockdata.vehBrandCode}
-</p>
+
+ {stockdata.comment}
+								
 </li>
+
+
+
 </ul>
+</div>
+
+
 
 	</div>
 
