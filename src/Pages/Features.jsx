@@ -197,7 +197,7 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 			</div>
 			<div
 				id='Paris'
-				class='tabcontent '
+				class='tabcontent  tableFixHead '
 				style={{ marginTop: "20px", marginLeft: "50px" }}>
 				{fetaures.map((itemdata) => (
 					<div
@@ -270,7 +270,7 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 						type='text'
 						name='remarks'
 						className='admintextbox1'
-						placeholder="Comment"
+						placeholder="Remarks"
 						onChange={(event) => setRemarks(event.target.value)}
 					/>
 
