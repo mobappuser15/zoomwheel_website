@@ -17,6 +17,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 	const [fetaures, setfetaures] = useState([]);
 	const [retails, setretailsdata] = useState([]);
+	const [remarks,setRemarks] = useState("");
 	const [prosposedsell, setprosposedsell] = useState([]);
 	const [price, setprice] = useState("");
 	const [selectedCheckboxes, setSelectedCheckboxes] = useState([]);
@@ -262,6 +263,15 @@ const Features = ({ uniquekey, vehOdometer, selectkmsvalue }) => {
 						className='admintextbox1'
 						placeholder={prosposedsell.dataPointDescription}
 						onChange={(event) => setprice(event.target.value)}
+					/>
+
+
+<input
+						type='text'
+						name='remarks'
+						className='admintextbox1'
+						placeholder="Comment"
+						onChange={(event) => setRemarks(event.target.value)}
 					/>
 
 					<button
